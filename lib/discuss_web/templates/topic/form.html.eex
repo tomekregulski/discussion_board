@@ -6,10 +6,10 @@
   <% end %>
 
   <%= label f, :title %>
-  <%= text_input f, :title %>
+  <%= text_input f, :title, placeholder: "Title" %>
   <%= error_tag f, :title %>
 
   <div>
-    <%= submit "Save" %>
+    <%= submit "Save Topic", class: "btn btn-primary" %>
   </div>
 <% end %>
